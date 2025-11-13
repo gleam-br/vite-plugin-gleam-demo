@@ -45,3 +45,8 @@ Vite build:
 ```sh
 npx vite build
 ```
+
+## 🧪 Demo
+
+- [bun-plugin-gleam-demo](https://github.com/gleam-br/bun-plugin-gleam-demo)
+- [bunup-plugin-gleam-demo](https://github.com/gleam-br/bunup-plugin-gleam-demo)
