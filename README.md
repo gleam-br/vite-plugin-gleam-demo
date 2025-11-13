@@ -7,11 +7,10 @@ gleam clean
 gleam build
 ```
 
-Vite dev:
+Vite build:
 
 ```sh
-npm install
-npx vite dev
+npx vite build
 ```
 
 ## How this project was created
@@ -22,14 +21,20 @@ Vite create:
 npm create vite
 ```
 
-Gleam new:
+1. Project name -> `vite-plugin-gleam-demo`
+2. Select a framework -> `Vanilla`
+3. Select a variant -> `JavaScript`
+4. Use rolldown-vite (Experimental) -> `No`
+5. Install with npm and start now -> `No`
+
+Add plugin:
 
 ```sh
 cd vite-plugin-gleam-demo
-gleam new vite_plugin_gleam_demo --skip-git --skip-github --template javascript .
+npm install --save-dev vite-plugin-gleam
 ```
 
-Vite config:
+Vite config [vite.config.js](./vite.config.js):
 
 ```js
 import { defineConfig } from "vite";
@@ -40,11 +45,24 @@ export default defineConfig({
 })
 ```
 
-Vite build:
+Gleam new:
 
 ```sh
-npx vite build
+cd vite-plugin-gleam-demo
+gleam new vite_plugin_gleam_demo --skip-git --skip-github --template javascript .
 ```
+
+Vite dev:
+
+```sh
+npm install
+npx vite dev
+```
+
+## ✅ Plugins
+
+- [bun-plugin-gleam](https://github.com/gleam-br/bun-plugin-gleam)
+- [vite-plugin-gleam](https://github.com/gleam-br/vite-plugin-gleam)
 
 ## 🧪 Demo
 
