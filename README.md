@@ -61,10 +61,12 @@ npx vite dev
 
 ## ✅ Plugins
 
-- [bun-plugin-gleam](https://github.com/gleam-br/bun-plugin-gleam)
 - [vite-plugin-gleam](https://github.com/gleam-br/vite-plugin-gleam)
+- [ts-plugin-gleam](https://github.com/gleam-br/ts-plugin-gleam)
+- [bun-plugin-gleam](https://github.com/gleam-br/bun-plugin-gleam)
 
 ## 🧪 Demo
 
 - [bun-plugin-gleam-demo](https://github.com/gleam-br/bun-plugin-gleam-demo)
 - [bunup-plugin-gleam-demo](https://github.com/gleam-br/bunup-plugin-gleam-demo)
+- [vite-ts-plugin-gleam-demo](https://github.com/gleam-br/vite-ts-plugin-gleam-demo)
