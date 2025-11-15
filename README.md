@@ -56,7 +56,8 @@ Vite dev:
 
 ```sh
 npm install
-npx vite dev
+npx vite
+# or npm run dev
 ```
 
 ## ✅ Plugins
