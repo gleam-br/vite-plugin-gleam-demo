@@ -1,6 +1,25 @@
+import { resolve } from "path";
 import { defineConfig } from "vite";
-import vitePluginGleam from "vite-plugin-gleam";
+
+import gleam from "vite-plugin-gleam";
+import tailwindcss from "@tailwindcss/vite"
 
 export default defineConfig({
-  plugins: [vitePluginGleam()]
+  plugins: [
+    gleam({
+      bin: "gleam",
+      log: { level: "debug", time: true },
+      build: {
+        force: false,
+        noPrintProgress: false,
+        warningsAsErrors: true
+      }
+    }),
+    tailwindcss()
+  ],
+  resolve: {
+    alias: {
+      '@gleam': resolve(__dirname, "./build/dev/javascript")
+    }
+  }
 })

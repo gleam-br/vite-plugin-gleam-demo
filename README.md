@@ -13,7 +13,7 @@ Vite build:
 npx vite build
 ```
 
-## How this project was created
+## How create this project?
 
 Vite create:
 

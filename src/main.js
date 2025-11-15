@@ -1,8 +1,8 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setup_counter } from './counter.gleam'
+import { main } from "./app.gleam"
 
+main()
+
+/*
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vite.dev" target="_blank">
@@ -20,5 +20,4 @@ document.querySelector('#app').innerHTML = `
     </p>
   </div>
 `
-
-setup_counter(document.querySelector('#counter'))
+*/
