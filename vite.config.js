@@ -11,8 +11,6 @@ export default defineConfig({
       log: { level: "debug", time: true },
       build: {
         force: false,
-        noPrintProgress: false,
-        warningsAsErrors: true
       }
     }),
     tailwindcss()

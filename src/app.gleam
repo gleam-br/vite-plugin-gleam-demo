@@ -28,7 +28,7 @@ fn update(m, _e) {
 }
 
 fn view(_m) {
-  html.h1([attribute.class("text-bold text-8xl text-green-500")], [
+  html.h1([attribute.class("text-bold text-8xl text-green-800")], [
     html.text("ola mundo"),
   ])
 }
