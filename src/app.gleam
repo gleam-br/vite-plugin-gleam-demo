@@ -28,7 +28,9 @@ fn update(m, _e) {
 }
 
 fn view(_m) {
-  html.h1([attribute.class("text-bold text-8xl text-green-800")], [
-    html.text("ola mundo"),
+  html.div([attribute.class("h-screen bg-gray-800")], [
+    html.h1([attribute.class("text-bold text-8xl text-green-700")], [
+      html.text("ola mundo"),
+    ]),
   ])
 }
